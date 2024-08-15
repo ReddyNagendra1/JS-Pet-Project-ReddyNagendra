@@ -1,0 +1,58 @@
+body {
+    background-image: url("./Images/basketballcourt.jpg");
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+h1 {
+    color: darkgoldenrod;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input {
+    border-radius: 8px;
+    padding: 6px;
+    margin-left: 16px;
+}
+
+label {
+    margin: 10px 0px 10px 30px;
+    color: darkgoldenrod;
+    font-size: 20px;
+}
+
+select {
+    padding: 6px;
+    font-size: 14px;
+    background-color: lightcoral;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin: 20px 0px 0px 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: lightgreen
+}
+
+
+.team {
+    font-size: medium;
+    border: 2px solid #000;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: darkgoldenrod;
+}

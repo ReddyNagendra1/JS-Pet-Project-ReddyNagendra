@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball-Team-Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+
+    <h1>Basketball-Team-Generator</h1>
+
+    <form id="playerForm">
+        <label for="playerName">Enter Player Name:</label>
+        <input type="text" id="playerName" required>
+
+        <label for="playerRole">Select Role:</label>
+        <select id="playerRole">
+            <option value="forward">Forward</option>
+            <option value="defense">Defense</option>
+        </select>
+        <button type="submit">Add Player</button>
+    </form>
+
+    <div>
+        <button id="teamsGenerate">Generate Teams</button>
+    </div>
+    <div id="teams"></div>
+
+</body>
+
+</html>
